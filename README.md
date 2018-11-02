@@ -1,1 +1,1 @@
-# cupup-genorator
+# cupup-generator
