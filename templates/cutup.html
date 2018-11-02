@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>CutUp</title>
+    <link href="../static/css/main.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="cutup">
+      <br><br>
+      <p>The cut-up technique (or découpé in French) is an aleatory literary technique in which a written text is cut up and rearranged to create a new text. The concept can be traced to at least the Dadaists of the 1920s, but was popularized in the late 1950s and early 1960s by writer William S. Burroughs, and has since been used in a wide variety of contexts.</p>
+      <p>This is a software version of that technique.</p>
+      <br>
+
+      <form action="{{url_for('cutup_results')}}" method="POST">
+        <textarea title="cut 1" placeholder="Enter some text" type="string" name="cut_1"></textarea>
+        <textarea title="cut 2" placeholder="Enter some more text" type="string" name="cut_2"></textarea>
+        <br>
+        <button type="submit"> Cut up! </button>
+      </form>
+
+      <br>
+      <p> The Cutup Engine is also available as a standalone app.</p>
+      <a href="/static/Cutup.exe">Download Cutup for Windows</a><p>
+      <a href="https://github.com/jimimcdonald/cutup-generator">Access code on Github</a>
+    </div>
+  </body>
+</html>
