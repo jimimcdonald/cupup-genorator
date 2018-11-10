@@ -7,6 +7,8 @@ By Jimi (and/or Issi)
 import random
 
 from cutup import CutUp
+from scrape import getText
+from isUrl import isUrl
 
 from PyQt5.QtWidgets import (QFrame, QTextEdit, QHBoxLayout, QVBoxLayout,
                              QApplication, QGridLayout, QPushButton, QMessageBox)
@@ -55,6 +57,11 @@ class CutUpApp(QFrame):
     def PrintStuff(self):
         input1 = self.InputBox1.toPlainText()
         input2 = self.InputBox2.toPlainText()
+
+        if isUrl(input1) == True:
+            input1 = getText(input1)
+        if isUrl(input2) == True:
+            input2 = getText(input2)
 
         self.OutputBox.setPlainText(CutUp(input1, input2))
 
