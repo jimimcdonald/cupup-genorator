@@ -1,4 +1,4 @@
-# Cupup Generator
+# Cutup Generator
 
 Software version of the cut-up technique used by William S. Burroughs and David Bowie
 
