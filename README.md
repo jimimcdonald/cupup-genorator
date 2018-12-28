@@ -19,3 +19,7 @@ When a URL is entered in place of text the program will rip the text from that U
 and use it in the cup-up process.
 
 A working example of this code can be seen at: http://www.jimimcdonald.co.uk/cutup/
+
+# 
+
+The list of top level domains used in isUrl.py was found at: https://data.iana.org/TLD/tlds-alpha-by-domain.txt
