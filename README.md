@@ -9,7 +9,7 @@ Enter two pieces of text, and the program returns random sections of the two of 
 # Desktop Version:
 
 The standalone desktop version has a GUI made using PyQt5 and is also included as a 
-Windows executable.
+Windows executable (located in /static/).
 
 # Web App Version:
 
